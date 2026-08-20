@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import { asset } from "@/lib/asset";
+
 /**
  * Device artwork.
  *
@@ -29,7 +31,7 @@ export function PhoneArt({
   if (image) {
     return (
       <Image
-        src={image}
+        src={asset(image)}
         alt={name}
         width={900}
         height={1125}

@@ -8,6 +8,7 @@ import { Nav, NavFallback } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { WhatsAppFab } from "@/components/WhatsAppFab";
 import { getDictionary } from "@/lib/dictionaries";
+import { asset } from "@/lib/asset";
 import { isLocale, locales, site, type Locale } from "@/lib/site";
 
 const unbounded = Unbounded({
@@ -95,7 +96,7 @@ export async function generateMetadata({
       description,
       images: [`${site.url}/og.png`],
     },
-    icons: { icon: "/icon.svg" },
+    icons: { icon: asset("/icon.svg") },
   };
 }
 

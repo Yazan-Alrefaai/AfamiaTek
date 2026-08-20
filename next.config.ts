@@ -15,6 +15,8 @@ const isExport = process.env.STATIC_EXPORT === "1";
 const basePath = process.env.BASE_PATH ?? "";
 
 const nextConfig: NextConfig = {
+  // read by src/lib/asset.ts on both the server and the client
+  env: { NEXT_PUBLIC_BASE_PATH: basePath },
   turbopack: {
     // Keep Turbopack scoped to this app even when a lockfile exists higher up.
     root: process.cwd(),
