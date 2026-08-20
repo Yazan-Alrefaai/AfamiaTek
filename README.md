@@ -19,6 +19,7 @@ asks for English).
 ```bash
 npm run build && npm start   # production build
 npm run lint                 # catalog checks + ESLint
+npm run build:pages          # static export for GitHub Pages — see "Deploying"
 ```
 
 ## Editing the shop
@@ -117,16 +118,49 @@ src/
   components/ui/         Button, Reveal, SectionHeading
   data/                  products.json, brands.json  ← the shop's stock
   lib/                   site facts, dictionaries, catalog helpers, WhatsApp links
-  proxy.ts               sends "/" to /ar or /en
+  lib/asset.ts           resolves /public paths against the deployment base path
+  proxy.ts               sends "/" to /ar or /en (server builds only)
 scripts/
   validate-catalog.mjs   runs before build and lint
+  finish-pages-build.mjs adds index.html + 404.html to the static export
   images/                one-off pipeline for the product renders and social cards
 ```
 
 ## Deploying
 
-Push to GitHub, import the repo on [Vercel](https://vercel.com), deploy. No environment
-variables are needed. Point `www.afamiatek.com` at it from the Vercel domains tab.
+There are two build targets, from the same code.
 
-If you change the domain, update `site.url` in `src/lib/site.ts` so the sitemap and social
-previews stay correct.
+### Preview — GitHub Pages (live now)
+
+<https://yazan-alrefaai.github.io/AfamiaTek/>
+
+Every push to `main` runs `.github/workflows/pages.yml`, which builds a fully static
+export and publishes it. Nothing to configure — the workflow asks GitHub for the
+project's base path and passes it in as `BASE_PATH`.
+
+```bash
+BASE_PATH=/AfamiaTek npm run build:pages   # reproduce it locally, output in out/
+```
+
+`STATIC_EXPORT=1` switches `next.config.ts` to `output: "export"`, turns off image
+optimisation and turns on trailing slashes. Because a static host has no proxy,
+`scripts/finish-pages-build.mjs` then adds the two documents Pages needs: an
+`index.html` that picks the visitor's locale in the browser, and a `404.html` lifted
+from the prerendered `/ar/404/`.
+
+**Anything under `/public` referenced by a raw path must go through `asset()`**
+(`src/lib/asset.ts`). `next/image` does not apply the base path once `unoptimized`
+is set, and `Metadata.icons` never does, so a plain `/products/x.webp` 404s on Pages
+while working fine on the real domain.
+
+### Production — the real domain
+
+`npm run build && npm start`, or import the repo on [Vercel](https://vercel.com);
+no environment variables are needed. This is the target `src/proxy.ts` is written
+for: it negotiates `/` to `/ar` or `/en` from `Accept-Language`, and `next/image`
+optimises on request.
+
+Point `www.afamiatek.com` at it, then update `site.url` in `src/lib/site.ts` if the
+domain ever changes — the sitemap, canonicals and social previews all read from it.
+As of the last check the domain still serves Hostinger's parked page, so the
+canonical URLs in the Pages preview point at a site that is not live yet.
