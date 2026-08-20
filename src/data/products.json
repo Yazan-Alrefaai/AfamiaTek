@@ -1,0 +1,628 @@
+[
+  {
+    "slug": "tecno-camon-30-pro-5g",
+    "brand": "tecno",
+    "name": "TECNO Camon 30 Pro 5G",
+    "tagline": {
+      "ar": "شاشة AMOLED بتردد ١٤٤ هرتز وكاميرتان بدقة ٥٠ ميغابكسل",
+      "en": "144Hz AMOLED and dual 50MP cameras"
+    },
+    "condition": "new",
+    "priceUsd": 329,
+    "oldPriceUsd": 369,
+    "inStock": true,
+    "featured": true,
+    "accent": "#2FB8E6",
+    "colors": [
+      { "hex": "#1B1E25", "name": { "ar": "أسود بازلتي", "en": "Iceland Basaltic Dark" } },
+      { "hex": "#E7E8E4", "name": { "ar": "فضي ثلجي", "en": "Alps Snowy Silver" } }
+    ],
+    "specs": {
+      "display": "6.78\" FHD+ AMOLED · 144Hz",
+      "chipset": "Dimensity 8200 Ultimate",
+      "ram": "12GB",
+      "storage": "256GB",
+      "camera": "50MP OIS + 50MP + 2MP · 50MP front",
+      "battery": "5000mAh · 70W",
+      "os": "Android 14 · HiOS 14",
+      "network": "5G · Dual SIM"
+    },
+    "images": ["/products/tecno-camon-30-pro-5g.webp"]
+  },
+  {
+    "slug": "tecno-pova-6-pro-5g",
+    "brand": "tecno",
+    "name": "TECNO Pova 6 Pro 5G",
+    "tagline": {
+      "ar": "بطارية ٦٠٠٠ ملي أمبير وشحن ٧٠ واط للألعاب",
+      "en": "6000mAh gaming beast with 70W charging"
+    },
+    "condition": "new",
+    "priceUsd": 279,
+    "inStock": true,
+    "featured": true,
+    "accent": "#8B5CF6",
+    "colors": [
+      { "hex": "#2E1F4F", "name": { "ar": "بنفسجي", "en": "Meteorite Grey" } },
+      { "hex": "#0F2E38", "name": { "ar": "أخضر داكن", "en": "Comet Green" } }
+    ],
+    "specs": {
+      "display": "6.78\" AMOLED · 120Hz",
+      "chipset": "Dimensity 6080",
+      "ram": "12GB",
+      "storage": "256GB",
+      "camera": "108MP + 2MP · 32MP front",
+      "battery": "6000mAh · 70W",
+      "os": "Android 14 · HiOS 14",
+      "network": "5G · Dual SIM"
+    },
+    "images": ["/products/tecno-pova-6-pro-5g.webp"]
+  },
+  {
+    "slug": "tecno-spark-30c",
+    "brand": "tecno",
+    "name": "TECNO Spark 30C",
+    "tagline": {
+      "ar": "أفضل سعر بمواصفات يومية ممتازة",
+      "en": "Best value daily driver"
+    },
+    "condition": "new",
+    "priceUsd": 119,
+    "inStock": true,
+    "featured": true,
+    "accent": "#2FB8E6",
+    "colors": [
+      { "hex": "#16181D", "name": { "ar": "أسود", "en": "Startrail Black" } },
+      { "hex": "#264653", "name": { "ar": "أزرق", "en": "Aurora Cloud" } },
+      { "hex": "#D97706", "name": { "ar": "برتقالي", "en": "Magic Skin Orange" } }
+    ],
+    "specs": {
+      "display": "6.67\" IPS · 120Hz",
+      "chipset": "Helio G81 Ultra",
+      "ram": "8GB (4+4)",
+      "storage": "128GB",
+      "camera": "48MP + AI · 8MP front",
+      "battery": "5000mAh · 18W",
+      "os": "Android 14 · HiOS 14",
+      "network": "4G LTE · Dual SIM"
+    },
+    "images": ["/products/tecno-spark-30c.webp"]
+  },
+  {
+    "slug": "tecno-spark-20-pro-plus",
+    "brand": "tecno",
+    "name": "TECNO Spark 20 Pro+",
+    "tagline": {
+      "ar": "تصميم منحني وكاميرا ١٠٨ ميغابكسل",
+      "en": "Curved design, 108MP camera"
+    },
+    "condition": "new",
+    "priceUsd": 189,
+    "inStock": true,
+    "accent": "#2FB8E6",
+    "colors": [
+      { "hex": "#3B2C5A", "name": { "ar": "بنفسجي فاتح", "en": "Magic Skin 2.0" } },
+      { "hex": "#1F2937", "name": { "ar": "رمادي", "en": "Moonlit Black" } }
+    ],
+    "specs": {
+      "display": "6.78\" AMOLED · 120Hz",
+      "chipset": "Helio G99 Ultimate",
+      "ram": "8GB",
+      "storage": "256GB",
+      "camera": "108MP + 2MP · 32MP front",
+      "battery": "5000mAh · 33W",
+      "os": "Android 14 · HiOS 13.6",
+      "network": "4G LTE · Dual SIM"
+    },
+    "images": ["/products/tecno-spark-20-pro-plus.webp"]
+  },
+  {
+    "slug": "tecno-spark-go-2024",
+    "brand": "tecno",
+    "name": "TECNO Spark Go 2024",
+    "tagline": {
+      "ar": "هاتف اقتصادي بصوت عالي وبطارية تدوم",
+      "en": "Budget pick, loud speaker, all-day battery"
+    },
+    "condition": "new",
+    "priceUsd": 79,
+    "inStock": true,
+    "accent": "#2FB8E6",
+    "colors": [
+      { "hex": "#16181D", "name": { "ar": "أسود", "en": "Gravity Black" } },
+      { "hex": "#E9EEF0", "name": { "ar": "أبيض", "en": "Mystery White" } }
+    ],
+    "specs": {
+      "display": "6.6\" IPS · 90Hz",
+      "chipset": "Helio A22",
+      "ram": "6GB (3+3)",
+      "storage": "64GB",
+      "camera": "13MP · 8MP front",
+      "battery": "5000mAh · 10W",
+      "os": "Android 13 Go · HiOS 13",
+      "network": "4G LTE · Dual SIM"
+    },
+    "images": ["/products/tecno-spark-go-2024.webp"]
+  },
+  {
+    "slug": "tecno-phantom-v-flip-2",
+    "brand": "tecno",
+    "name": "TECNO Phantom V Flip 2 5G",
+    "tagline": {
+      "ar": "هاتف قابل للطي بشاشة خارجية كبيرة",
+      "en": "Foldable flip with a large cover screen"
+    },
+    "condition": "new",
+    "priceUsd": 649,
+    "inStock": true,
+    "featured": true,
+    "accent": "#E8B04B",
+    "colors": [
+      { "hex": "#68836B", "name": { "ar": "أخضر ترافرتين", "en": "Travertine Green" } },
+      { "hex": "#A7A3A0", "name": { "ar": "رمادي قمري", "en": "Moondust Grey" } }
+    ],
+    "specs": {
+      "display": "6.9\" AMOLED 120Hz + 3.64\" cover",
+      "chipset": "Dimensity 8020",
+      "ram": "8GB",
+      "storage": "256GB",
+      "camera": "50MP + 50MP · 32MP front",
+      "battery": "4720mAh · 70W",
+      "os": "Android 14 · HiOS 14",
+      "network": "5G · Dual SIM"
+    },
+    "images": ["/products/tecno-phantom-v-flip-2.webp"]
+  },
+  {
+    "slug": "infinix-note-40-pro",
+    "brand": "infinix",
+    "name": "Infinix Note 40 Pro",
+    "tagline": {
+      "ar": "شحن لاسلكي مغناطيسي وشاشة منحنية",
+      "en": "MagCharge wireless, curved AMOLED"
+    },
+    "condition": "new",
+    "priceUsd": 289,
+    "inStock": true,
+    "featured": true,
+    "accent": "#7BE38B",
+    "colors": [
+      { "hex": "#0E3B2E", "name": { "ar": "أخضر", "en": "Vintage Green" } },
+      { "hex": "#141821", "name": { "ar": "أسود", "en": "Obsidian Black" } }
+    ],
+    "specs": {
+      "display": "6.78\" AMOLED · 120Hz",
+      "chipset": "Helio G99 Ultimate",
+      "ram": "12GB",
+      "storage": "256GB",
+      "camera": "108MP OIS + 2MP + 2MP · 32MP front",
+      "battery": "5000mAh · 70W + 20W wireless",
+      "os": "Android 14 · XOS 14",
+      "network": "4G LTE · Dual SIM"
+    },
+    "images": ["/products/infinix-note-40-pro.webp"]
+  },
+  {
+    "slug": "infinix-hot-50-pro-plus",
+    "brand": "infinix",
+    "name": "Infinix Hot 50 Pro+",
+    "tagline": {
+      "ar": "أنحف هاتف بشاشة منحنية في فئته",
+      "en": "Slimmest curved screen in its class"
+    },
+    "condition": "new",
+    "priceUsd": 199,
+    "inStock": true,
+    "accent": "#7BE38B",
+    "colors": [
+      { "hex": "#2B3A67", "name": { "ar": "أزرق", "en": "Dreamy Purple" } },
+      { "hex": "#1A1A1A", "name": { "ar": "أسود", "en": "Sleek Black" } }
+    ],
+    "specs": {
+      "display": "6.78\" AMOLED · 120Hz",
+      "chipset": "Helio G100",
+      "ram": "8GB",
+      "storage": "256GB",
+      "camera": "50MP + 2MP · 8MP front",
+      "battery": "5000mAh · 33W",
+      "os": "Android 14 · XOS 14.5",
+      "network": "4G LTE · Dual SIM"
+    },
+    "images": ["/products/infinix-hot-50-pro-plus.webp"]
+  },
+  {
+    "slug": "infinix-smart-8",
+    "brand": "infinix",
+    "name": "Infinix Smart 8",
+    "tagline": {
+      "ar": "الخيار الأرخص لمن يريد هاتفاً جديداً",
+      "en": "Cheapest brand-new option in store"
+    },
+    "condition": "new",
+    "priceUsd": 69,
+    "inStock": true,
+    "accent": "#7BE38B",
+    "colors": [
+      { "hex": "#16181D", "name": { "ar": "أسود", "en": "Timber Black" } },
+      { "hex": "#E8EDF1", "name": { "ar": "أبيض", "en": "Galaxy White" } }
+    ],
+    "specs": {
+      "display": "6.6\" IPS · 90Hz",
+      "chipset": "Unisoc T606",
+      "ram": "6GB (3+3)",
+      "storage": "64GB",
+      "camera": "13MP · 8MP front",
+      "battery": "5000mAh · 10W",
+      "os": "Android 13 Go · XOS 13",
+      "network": "4G LTE · Dual SIM"
+    },
+    "images": ["/products/infinix-smart-8.webp"]
+  },
+  {
+    "slug": "samsung-galaxy-a35-5g",
+    "brand": "samsung",
+    "name": "Samsung Galaxy A35 5G",
+    "tagline": {
+      "ar": "مقاومة ماء IP67 وتحديثات ٤ سنوات",
+      "en": "IP67 rated, 4 years of updates"
+    },
+    "condition": "new",
+    "priceUsd": 349,
+    "inStock": true,
+    "featured": true,
+    "accent": "#6D9BFF",
+    "colors": [
+      { "hex": "#1E2A5A", "name": { "ar": "أزرق نيلي", "en": "Awesome Navy" } },
+      { "hex": "#DDE8E8", "name": { "ar": "أزرق جليدي", "en": "Awesome Iceblue" } }
+    ],
+    "specs": {
+      "display": "6.6\" Super AMOLED · 120Hz",
+      "chipset": "Exynos 1380",
+      "ram": "8GB",
+      "storage": "256GB",
+      "camera": "50MP OIS + 8MP + 5MP · 13MP front",
+      "battery": "5000mAh · 25W",
+      "os": "Android 14 · One UI 6.1",
+      "network": "5G · Dual SIM"
+    },
+    "images": ["/products/samsung-galaxy-a35-5g.webp"]
+  },
+  {
+    "slug": "samsung-galaxy-a15",
+    "brand": "samsung",
+    "name": "Samsung Galaxy A15",
+    "tagline": {
+      "ar": "سامسونغ بسعر مناسب وشاشة AMOLED",
+      "en": "Affordable Samsung with AMOLED"
+    },
+    "condition": "new",
+    "priceUsd": 179,
+    "inStock": true,
+    "accent": "#6D9BFF",
+    "colors": [
+      { "hex": "#141821", "name": { "ar": "أسود", "en": "Blue Black" } },
+      { "hex": "#3D5A80", "name": { "ar": "أزرق فاتح", "en": "Light Blue" } }
+    ],
+    "specs": {
+      "display": "6.5\" Super AMOLED · 90Hz",
+      "chipset": "Helio G99",
+      "ram": "6GB",
+      "storage": "128GB",
+      "camera": "50MP + 5MP + 2MP · 13MP front",
+      "battery": "5000mAh · 25W",
+      "os": "Android 14 · One UI 6",
+      "network": "4G LTE · Dual SIM"
+    },
+    "images": ["/products/samsung-galaxy-a15.webp"]
+  },
+  {
+    "slug": "samsung-galaxy-s23-ultra-used",
+    "brand": "samsung",
+    "name": "Samsung Galaxy S23 Ultra",
+    "tagline": {
+      "ar": "مستعمل بحالة ممتازة مع قلم S Pen",
+      "en": "Used, excellent condition, S Pen included"
+    },
+    "condition": "used",
+    "batteryHealth": 92,
+    "priceUsd": 649,
+    "oldPriceUsd": 899,
+    "inStock": true,
+    "featured": true,
+    "accent": "#C9B896",
+    "colors": [{ "hex": "#3D3B36", "name": { "ar": "كريمي", "en": "Cream" } }],
+    "specs": {
+      "display": "6.8\" Dynamic AMOLED 2X · 120Hz",
+      "chipset": "Snapdragon 8 Gen 2",
+      "ram": "12GB",
+      "storage": "512GB",
+      "camera": "200MP + 12MP + 10MP + 10MP · 12MP front",
+      "battery": "5000mAh · 45W",
+      "os": "Android 14 · One UI 6.1",
+      "network": "5G · Dual SIM"
+    },
+    "images": ["/products/samsung-galaxy-s23-ultra-used.webp"]
+  },
+  {
+    "slug": "xiaomi-redmi-note-13-pro",
+    "brand": "xiaomi",
+    "name": "Xiaomi Redmi Note 13 Pro",
+    "tagline": {
+      "ar": "كاميرا ٢٠٠ ميغابكسل وشاشة AMOLED بتردد ١٢٠ هرتز",
+      "en": "200MP camera, 120Hz AMOLED"
+    },
+    "condition": "new",
+    "priceUsd": 269,
+    "inStock": true,
+    "featured": true,
+    "accent": "#FF7A45",
+    "colors": [
+      { "hex": "#2C2F36", "name": { "ar": "أسود", "en": "Midnight Black" } },
+      { "hex": "#4E3B7A", "name": { "ar": "بنفسجي لافندر", "en": "Lavender Purple" } }
+    ],
+    "specs": {
+      "display": "6.67\" FHD+ AMOLED · 120Hz",
+      "chipset": "Helio G99 Ultra",
+      "ram": "8GB",
+      "storage": "256GB",
+      "camera": "200MP OIS + 8MP + 2MP · 16MP front",
+      "battery": "5000mAh · 67W",
+      "os": "Android 13 · MIUI 14",
+      "network": "4G LTE · Dual SIM"
+    },
+    "images": ["/products/xiaomi-redmi-note-13-pro.webp"]
+  },
+  {
+    "slug": "xiaomi-redmi-13c",
+    "brand": "xiaomi",
+    "name": "Xiaomi Redmi 13C",
+    "tagline": {
+      "ar": "شاشة كبيرة وسعر منخفض",
+      "en": "Big screen, small price"
+    },
+    "condition": "new",
+    "priceUsd": 109,
+    "inStock": true,
+    "accent": "#FF7A45",
+    "colors": [
+      { "hex": "#16181D", "name": { "ar": "أسود", "en": "Midnight Black" } },
+      { "hex": "#2F6B4F", "name": { "ar": "أخضر", "en": "Clover Green" } }
+    ],
+    "specs": {
+      "display": "6.74\" IPS · 90Hz",
+      "chipset": "Helio G85",
+      "ram": "8GB (4+4)",
+      "storage": "128GB",
+      "camera": "50MP + 2MP · 8MP front",
+      "battery": "5000mAh · 18W",
+      "os": "Android 13 · MIUI 14",
+      "network": "4G LTE · Dual SIM"
+    },
+    "images": ["/products/xiaomi-redmi-13c.webp"]
+  },
+  {
+    "slug": "xiaomi-poco-x6-pro",
+    "brand": "xiaomi",
+    "name": "POCO X6 Pro 5G",
+    "tagline": {
+      "ar": "أقوى معالج في فئة السعر المتوسط",
+      "en": "Fastest chip in the midrange"
+    },
+    "condition": "new",
+    "priceUsd": 349,
+    "inStock": false,
+    "accent": "#FF7A45",
+    "colors": [
+      { "hex": "#16181D", "name": { "ar": "أسود", "en": "Black" } },
+      { "hex": "#F3D34A", "name": { "ar": "أصفر", "en": "Yellow" } }
+    ],
+    "specs": {
+      "display": "6.67\" AMOLED · 120Hz · 1.5K",
+      "chipset": "Dimensity 8300 Ultra",
+      "ram": "12GB",
+      "storage": "512GB",
+      "camera": "64MP OIS + 8MP + 2MP · 16MP front",
+      "battery": "5000mAh · 67W",
+      "os": "Android 14 · HyperOS",
+      "network": "5G · Dual SIM"
+    },
+    "images": ["/products/xiaomi-poco-x6-pro.webp"]
+  },
+  {
+    "slug": "iphone-15-pro-max",
+    "brand": "apple",
+    "name": "iPhone 15 Pro Max",
+    "tagline": {
+      "ar": "تيتانيوم وزوم بصري ٥×",
+      "en": "Titanium body, 5× optical zoom"
+    },
+    "condition": "new",
+    "priceUsd": 1249,
+    "inStock": true,
+    "featured": true,
+    "accent": "#D6D6D6",
+    "colors": [
+      { "hex": "#4A4A4C", "name": { "ar": "تيتانيوم طبيعي", "en": "Natural Titanium" } },
+      { "hex": "#33373C", "name": { "ar": "تيتانيوم أزرق", "en": "Blue Titanium" } }
+    ],
+    "specs": {
+      "display": "6.7\" Super Retina XDR · 120Hz",
+      "chipset": "Apple A17 Pro",
+      "ram": "8GB",
+      "storage": "256GB",
+      "camera": "48MP + 12MP + 12MP · 12MP front",
+      "battery": "4441mAh · 27W",
+      "os": "iOS 18",
+      "network": "5G · eSIM + nano SIM"
+    },
+    "images": ["/products/iphone-15-pro-max.webp"]
+  },
+  {
+    "slug": "iphone-13-used",
+    "brand": "apple",
+    "name": "iPhone 13",
+    "tagline": {
+      "ar": "مستعمل نظيف — صحة البطارية ٨٩٪",
+      "en": "Clean used unit — 89% battery health"
+    },
+    "condition": "used",
+    "batteryHealth": 89,
+    "priceUsd": 399,
+    "oldPriceUsd": 549,
+    "inStock": true,
+    "accent": "#D6D6D6",
+    "colors": [
+      { "hex": "#2B4257", "name": { "ar": "أزرق", "en": "Midnight" } },
+      { "hex": "#E8DCD0", "name": { "ar": "أبيض", "en": "Starlight" } }
+    ],
+    "specs": {
+      "display": "6.1\" Super Retina XDR · 60Hz",
+      "chipset": "Apple A15 Bionic",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "12MP + 12MP · 12MP front",
+      "battery": "3240mAh · 20W",
+      "os": "iOS 18",
+      "network": "5G · Dual SIM"
+    },
+    "images": ["/products/iphone-13-used.webp"]
+  },
+  {
+    "slug": "iphone-12-used",
+    "brand": "apple",
+    "name": "iPhone 12",
+    "tagline": {
+      "ar": "مستعمل بحالة جيدة جداً وسعر مغري",
+      "en": "Very good used condition, sharp price"
+    },
+    "condition": "used",
+    "batteryHealth": 85,
+    "priceUsd": 299,
+    "oldPriceUsd": 429,
+    "inStock": true,
+    "accent": "#D6D6D6",
+    "colors": [{ "hex": "#20486B", "name": { "ar": "أزرق", "en": "Blue" } }],
+    "specs": {
+      "display": "6.1\" Super Retina XDR · 60Hz",
+      "chipset": "Apple A14 Bionic",
+      "ram": "4GB",
+      "storage": "128GB",
+      "camera": "12MP + 12MP · 12MP front",
+      "battery": "2815mAh · 20W",
+      "os": "iOS 18",
+      "network": "5G · Dual SIM"
+    },
+    "images": ["/products/iphone-12-used.webp"]
+  },
+  {
+    "slug": "honor-x9b",
+    "brand": "honor",
+    "name": "HONOR X9b 5G",
+    "tagline": {
+      "ar": "شاشة مقاومة للكسر بمعيار عسكري",
+      "en": "Drop-resistant Ultra-Bounce display"
+    },
+    "condition": "new",
+    "priceUsd": 259,
+    "inStock": true,
+    "accent": "#8FD3FF",
+    "colors": [
+      { "hex": "#15171B", "name": { "ar": "أسود", "en": "Midnight Black" } },
+      { "hex": "#5E7A4A", "name": { "ar": "أخضر", "en": "Emerald Green" } }
+    ],
+    "specs": {
+      "display": "6.78\" AMOLED · 120Hz",
+      "chipset": "Snapdragon 6 Gen 1",
+      "ram": "12GB",
+      "storage": "256GB",
+      "camera": "108MP OIS + 5MP + 2MP · 16MP front",
+      "battery": "5800mAh · 35W",
+      "os": "Android 13 · MagicOS 7.2",
+      "network": "5G · Dual SIM"
+    },
+    "images": ["/products/honor-x9b.webp"]
+  },
+  {
+    "slug": "realme-c67",
+    "brand": "realme",
+    "name": "realme C67",
+    "tagline": {
+      "ar": "تصميم أنيق وشحن سريع ٣٣ واط",
+      "en": "Sharp design, 33W fast charge"
+    },
+    "condition": "new",
+    "priceUsd": 149,
+    "inStock": true,
+    "accent": "#FFD24A",
+    "colors": [
+      { "hex": "#1F4F3F", "name": { "ar": "أخضر", "en": "Sunny Oasis" } },
+      { "hex": "#2B2D2F", "name": { "ar": "أسود صخري", "en": "Black Rock" } }
+    ],
+    "specs": {
+      "display": "6.72\" IPS · 90Hz",
+      "chipset": "Snapdragon 685",
+      "ram": "8GB",
+      "storage": "128GB",
+      "camera": "108MP + 2MP · 8MP front",
+      "battery": "5000mAh · 33W",
+      "os": "Android 14 · realme UI 5",
+      "network": "4G LTE · Dual SIM"
+    },
+    "images": ["/products/realme-c67.webp"]
+  },
+  {
+    "slug": "oppo-a79-5g",
+    "brand": "oppo",
+    "name": "OPPO A79 5G",
+    "tagline": {
+      "ar": "سماعات ستيريو وبطارية قوية",
+      "en": "Stereo speakers, strong battery"
+    },
+    "condition": "new",
+    "priceUsd": 219,
+    "inStock": true,
+    "accent": "#4ADE9B",
+    "colors": [
+      { "hex": "#1B2B4B", "name": { "ar": "أرجواني", "en": "Mystery Black" } },
+      { "hex": "#5B3F7A", "name": { "ar": "بنفسجي", "en": "Glowing Purple" } }
+    ],
+    "specs": {
+      "display": "6.72\" IPS · 90Hz",
+      "chipset": "Dimensity 6020",
+      "ram": "8GB",
+      "storage": "256GB",
+      "camera": "50MP + 2MP · 8MP front",
+      "battery": "5000mAh · 33W",
+      "os": "Android 13 · ColorOS 13.1",
+      "network": "5G · Dual SIM"
+    },
+    "images": ["/products/oppo-a79-5g.webp"]
+  },
+  {
+    "slug": "samsung-galaxy-a05s-used",
+    "brand": "samsung",
+    "name": "Samsung Galaxy A05s",
+    "tagline": {
+      "ar": "مستعمل بحالة الوكالة — مناسب للاستخدام اليومي",
+      "en": "Like-new used unit for everyday use"
+    },
+    "condition": "used",
+    "batteryHealth": 95,
+    "priceUsd": 109,
+    "oldPriceUsd": 149,
+    "inStock": true,
+    "accent": "#6D9BFF",
+    "colors": [{ "hex": "#16181D", "name": { "ar": "أسود", "en": "Black" } }],
+    "specs": {
+      "display": "6.7\" IPS · 90Hz",
+      "chipset": "Snapdragon 680",
+      "ram": "6GB",
+      "storage": "128GB",
+      "camera": "50MP + 2MP + 2MP · 13MP front",
+      "battery": "5000mAh · 25W",
+      "os": "Android 13 · One UI 5.1",
+      "network": "4G LTE · Dual SIM"
+    },
+    "images": ["/products/samsung-galaxy-a05s-used.webp"]
+  }
+]

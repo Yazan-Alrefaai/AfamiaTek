@@ -1,0 +1,10 @@
+[
+  { "id": "tecno", "name": "TECNO", "name_ar": "تكنو", "accent": "#2FB8E6" },
+  { "id": "infinix", "name": "Infinix", "name_ar": "إنفينكس", "accent": "#7BE38B" },
+  { "id": "samsung", "name": "Samsung", "name_ar": "سامسونغ", "accent": "#6D9BFF" },
+  { "id": "xiaomi", "name": "Xiaomi", "name_ar": "شاومي", "accent": "#FF7A45" },
+  { "id": "apple", "name": "Apple", "name_ar": "آبل", "accent": "#D6D6D6" },
+  { "id": "realme", "name": "realme", "name_ar": "ريلمي", "accent": "#FFD24A" },
+  { "id": "honor", "name": "HONOR", "name_ar": "هونر", "accent": "#8FD3FF" },
+  { "id": "oppo", "name": "OPPO", "name_ar": "أوبو", "accent": "#4ADE9B" }
+]

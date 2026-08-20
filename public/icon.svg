@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <clipPath id="shear">
+      <path d="M12 0h104v120L12 64Z"/>
+    </clipPath>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0a0a09"/>
+  <g fill="#ed1847">
+    <path d="M64 5 L114 29 V37 H110 V53 H80 A16 16 0 0 0 48 53 H18 V37 H14 V29 Z"/>
+    <g clip-path="url(#shear)">
+      <rect x="17.5" y="57" width="15" height="7"/>
+      <rect x="21" y="64" width="8" height="64"/>
+      <rect x="37" y="57" width="15" height="7"/>
+      <rect x="40.5" y="64" width="8" height="64"/>
+      <rect x="56.5" y="57" width="15" height="7"/>
+      <rect x="60" y="64" width="8" height="64"/>
+      <rect x="76" y="57" width="15" height="7"/>
+      <rect x="79.5" y="64" width="8" height="64"/>
+      <rect x="95.5" y="57" width="15" height="7"/>
+      <rect x="99" y="64" width="8" height="64"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+node_modules
+.next
+out
+build
+.DS_Store
+*.pem
+npm-debug.log*
+.env*
+!.env.example
+.vercel
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# superseded first-pass scaffolding, kept locally but not shipped
+_stale-v1
+
+# artwork tooling is Python; its bytecode is not
+__pycache__/
+*.py[cod]

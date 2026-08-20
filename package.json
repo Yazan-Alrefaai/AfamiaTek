@@ -1,0 +1,36 @@
+{
+  "name": "afamiatek",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "npm run validate:catalog",
+    "build": "next build",
+    "prebuild:pages": "npm run validate:catalog",
+    "build:pages": "STATIC_EXPORT=1 next build && node scripts/finish-pages-build.mjs",
+    "start": "next start",
+    "prelint": "npm run validate:catalog",
+    "lint": "eslint .",
+    "validate:catalog": "node scripts/validate-catalog.mjs"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.1",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.7.0",
+    "lucide-react": "^1.33.0",
+    "motion": "^13.1.0",
+    "next": "^16.3.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "three": "^0.185.1"
+  }
+}
